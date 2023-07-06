@@ -86,17 +86,33 @@ def CREATE_VALIDATION_DICTS():
     """# ### Load Synonym dict """
     ddsyn2={}
     for x in cv['classes'][1]['terms'].keys():
-        temp=cv['classes'][1]['terms'][x]["synonyms"].strip().split(",")
+        try:
+            temp=cv['classes'][1]['terms'][x]["alternative_terms"].strip().split(",")
+            #print(temp)
+            temp.append(cv['classes'][1]['terms'][x]["cv_name"])
+            temp.append(cv['classes'][1]['terms'][x]["display_name"])
+            #print(temp)
+        except:
+            temp=[]
+            temp.append(cv['classes'][1]['terms'][x]["cv_name"])
+            temp.append(cv['classes'][1]['terms'][x]["display_name"])
+        
+        try:
+            temp2=cv['classes'][1]['terms'][x]["synonyms"].strip().split(",")
+        except:
+            temp2=[]
+            
+        temp.extend(temp2)
+        
         temp=[y.strip() for y in temp if len(y) > 0]
         temp=[y.strip() for y in temp if len(y) > 0]
         for zz in temp:
-            #ddsyn2[zz] = cv['classes'][1]['terms'][x]["default_display"]
-            ddsyn2[zz] = x
+            ddsyn2[zz] = cv['classes'][1]['terms'][x]["cv_name"]
 
     """# ### Load Entity and SIM mapping"""
-    ddEntity={x:cv['classes'][1]['terms'][x]['entity'] for x in cv['classes'][1]['terms'].keys()}
-    ddSIM={x:cv['classes'][1]['terms'][x]['default_display'] for x in cv['classes'][1]['terms'].keys()}
-    ddDType={x:cv['classes'][1]['terms'][x]['datatype'] for x in cv['classes'][1]['terms'].keys()}
+    ddEntity={cv['classes'][1]['terms'][x]["cv_name"]:cv['classes'][1]['terms'][x]['parent_entity'] for x in cv['classes'][1]['terms'].keys()}
+    ddSIM={cv['classes'][1]['terms'][x]["cv_name"]:cv['classes'][1]['terms'][x]['display_name'] for x in cv['classes'][1]['terms'].keys()}
+    ddDType={cv['classes'][1]['terms'][x]["cv_name"]:cv['classes'][1]['terms'][x]['datatype'] for x in cv['classes'][1]['terms'].keys()}
     
     """# ### Load valid values mapping"""
     ddNumRange={}
@@ -111,8 +127,8 @@ def CREATE_VALIDATION_DICTS():
             else:
                 ddCatRange[x]=y
                 
-    ddNumRange={x:eval(ddNumRange[x]) for x in ddNumRange}
-    ddCatRange={x:[_.strip() for _ in ddCatRange[x].split(',')] for x in ddCatRange}
+    ddNumRange={cv['classes'][1]['terms'][x]["cv_name"]:eval(ddNumRange[x]) for x in ddNumRange}
+    ddCatRange={cv['classes'][1]['terms'][x]["cv_name"]:[_.strip() for _ in ddCatRange[x].split(',')] for x in ddCatRange}
         
     return ddsyn2, ddSIM, ddEntity, ddDType, ddNumRange, ddCatRange
 
@@ -250,41 +266,53 @@ def checkValidValues(dseries, ddDType, ddNumRange, ddCatRange):
     
     return outOfRngCol
 
-def checkValidNumValues(dseries, ddNumRange):
+def checkValidNumValues(dseries, ddNumRange, ddSIM):
     s=dseries.name
     outOfRngCol=[]
     
+    #fp="/Users/raktimmaiti_mbp/Documents/GitHub/EagleGenomics-CV/master/eaglegenomics-cv.json"
+    #with open(fp) as f:
+        #cv=json.load(f)
+    
     if s in ddNumRange:
         Ndata=dseries.copy()
+        #cvname=cv['classes'][1]['terms'][f'{Ndata.name}_Study']["display_name"]
+        cvname=ddSIM[Ndata.name]
         if Ndata.dropna().between(ddNumRange[s][0],ddNumRange[s][1]).all():
             pass
         else:
             #print(f"{s} have out of range numerical values")
-            logging.error(f"Atribute {Ndata.name}: contains Out of Range Numerical Values")
-            print(Ndata.name, "Valid Range: ", ddNumRange[s])
-            print(Ndata.name, "Actual data-> min: ", Ndata.min(),", max: ", Ndata.max())
-            outOfRngCol.append(Ndata.name)
+            logging.error(f"Atribute {cvname}: contains Out of Range Numerical Values")
+            print(cvname, "Valid Range: ", ddNumRange[s])
+            print(cvname, "Actual data-> min: ", Ndata.min(),", max: ", Ndata.max())
+            outOfRngCol.append(cvname)
     else:
         pass
     
     return outOfRngCol
 
 
-def checkValidCatValues(dseries, ddCatRange):
+def checkValidCatValues(dseries, ddCatRange, ddSIM):
     s=dseries.name
     outOfRngCol=[]
     
+    #fp="/Users/raktimmaiti_mbp/Documents/GitHub/EagleGenomics-CV/master/eaglegenomics-cv.json"
+    #with open(fp) as f:
+        #cv=json.load(f)
+    
     if s in ddCatRange:
         Cdata=dseries.copy()
+        #cvname=cv['classes'][1]['terms'][f'{Cdata.name}_Study']["display_name"]
+        cvname=ddSIM[Cdata.name]
         if Cdata.dropna().isin(ddCatRange[s]).all():
             pass
         else:
             #print(f"{s} have out of range categorical values")
-            logging.error(f"Atribute {Cdata.name}: contains Out of Range Categorical Values")
-            print(Cdata.name, "Valid Values: ", ddCatRange[s])
+            logging.error(f"Atribute {cvname}: contains Out of Range Categorical Values")
+            print(cvname, "Valid Values: ", ddCatRange[s])
             #print(Cdata.name, "Actual Values: ", Cdata.unique())
-            print(Cdata.name, "Unknown Values: ", set(Cdata.unique())-set(ddCatRange[s]))
-            outOfRngCol.append(Cdata.name)
+            print(cvname, "Unknown Values: ", set(Cdata.unique())-set(ddCatRange[s]))
+            outOfRngCol.append(cvname)
     else:
         pass
     
@@ -338,7 +366,7 @@ ddsyn2, ddSIM, ddEntity, ddDType, ddNumRange, ddCatRange = CREATE_VALIDATION_DIC
 """Load input study files"""
 mappingFile = LOAD_MAPPING_FILE(SID, ddsyn2)
 print(mappingFile.head())
-mappingFile = mappingFile.drop(['specimenDescription'], axis=1)
+mappingFile = mappingFile.drop(['Specimen Description'], axis=1)
 
 study, sample = LOAD_BLANK_TP()
 
@@ -360,6 +388,7 @@ try:
     StudyDict["Experiment Type"]=SEInput.loc[SID]['experimentType']
     StudyDict["Platform"]=SEInput.loc[SID]['platform']
     StudyDict["InvestigationType"]=SEInput.loc[SID]['investigationType']
+    StudyDict["PairedOrSingle"]=SEInput.loc[SID]['Indexed Sequencing']
     StudyDict["Processing Status"]=SEInput.loc[SID]['processingStatus']
     StudyDict["Raw Data Available"]=SEInput.loc[SID]['rawDataAvailable']
 
@@ -373,6 +402,7 @@ except:
     StudyDict["Experiment Type"]="Metagenomics"
     StudyDict["Platform"]="Illumina"
     StudyDict["InvestigationType"]="16S"
+    StudyDict["PairedOrSingle"]="Paired"
     StudyDict["Processing Status"]="Raw"
     StudyDict["Raw Data Available"]="Yes"
 
@@ -395,9 +425,9 @@ else:
     dataValidation.append(True)
     
     
-fp="./input_blank/eaglegenomics-cv.json"
-with open(fp) as f:
-    cv=json.load(f)
+#fp="./input_blank/eaglegenomics-cv.json"
+#with open(fp) as f:
+    #cv=json.load(f)
     
 
 
@@ -414,7 +444,7 @@ for columns in mappingFile:
     try:
         x= convertDtype(x, ddDType, errors=errors)
     except ValueError:
-        InvalidDataTypeCols.append(x.name)
+        InvalidDataTypeCols.append(ddSIM[x.name])
         continue
     
     #valChk=checkValidValues(x, ddDType, ddNumRange, ddCatRange)
@@ -430,16 +460,16 @@ for columns in mappingFile:
         dataType= 'String'
         
     if dataType == "Numeric" or dataType == "INT":
-        valChk=checkValidNumValues(x, ddNumRange)
+        valChk=checkValidNumValues(x, ddNumRange, ddSIM)
     elif dataType == "String":
-        valChk=checkValidCatValues(x, ddCatRange)
+        valChk=checkValidCatValues(x, ddCatRange, ddSIM)
     
     OutOfRngCols.extend(valChk)
     
     
     prefix=[]
     data = [*prefix, *x]
-    data = pd.Series(data, name=cv['classes'][1]['terms'][columns]["default_display"])
+    data = pd.Series(data, name=ddSIM[columns])  ## Name the columns with display name
 
     #print(data)
     
