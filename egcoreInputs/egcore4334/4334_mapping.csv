@@ -1,0 +1,538 @@
+#SampleID	BarcodeSequence	LinkerPrimerSequence	ELN	UnileverSampleID	UnileverStudyNumber	UnileverStudyName	ExternalStudyNumber	ControlSample	ControlID	SampleCollectionDate	SampleCollectionCountry	SampleCollectionCity	SubjectID	Age	LifeStage	Sex	Timepoint	TimepointName	InvestigationType	SampleType	SequencingPlatform	Bodysite	SampleSite	SampleSide	SampleCollectionArea	SkinCondition	MMS	MMSBin	OdourType	Description
+ERR2538349	NA	NA	EXP-23-BO2613	MBS346	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM1	6	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	25	High	Musty	ERR2538349
+ERR2538350	NA	NA	EXP-23-BO2613	MBS347	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM2	7	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	20	High	HircismusAcidic	ERR2538350
+ERR2538351	NA	NA	EXP-23-BO2613	MBS348	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM3	7	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	15	High	Sweet	ERR2538351
+ERR2538352	NA	NA	EXP-23-BO2613	MBS349	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM4	9	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	60	High	Hircismus	ERR2538352
+ERR2538353	NA	NA	EXP-23-BO2613	MBS350	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM5	7	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	45	High	Sour	ERR2538353
+ERR2538354	NA	NA	EXP-23-BO2613	MBS351	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM6	6	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	20	High	SweetSour	ERR2538354
+ERR2538355	NA	NA	EXP-23-BO2613	MBS352	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM7	8	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	15	High	SweetSour	ERR2538355
+ERR2538356	NA	NA	EXP-23-BO2613	MBS353	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM8	9	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	30	High	Sour	ERR2538356
+ERR2538357	NA	NA	EXP-23-BO2613	MBS354	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM9	9	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	50	High	Sour	ERR2538357
+ERR2538358	NA	NA	EXP-23-BO2613	MBS355	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM10	8	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	20	High	Sour	ERR2538358
+ERR2538359	NA	NA	EXP-23-BO2613	MBS356	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD1	6	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	15	Low	Sweet	ERR2538359
+ERR2538360	NA	NA	EXP-23-BO2613	MBS357	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD2	6	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	15	Low	SweetSour	ERR2538360
+ERR2538361	NA	NA	EXP-23-BO2613	MBS358	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD3	9	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	15	Low	Sweet	ERR2538361
+ERR2538362	NA	NA	EXP-23-BO2613	MBS359	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD4	8	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	25	Low	SweetSour	ERR2538362
+ERR2538363	NA	NA	EXP-23-BO2613	MBS360	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD5	8	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	20	Low	Sour	ERR2538363
+ERR2538364	NA	NA	EXP-23-BO2613	MBS361	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM1	6	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	40	High	HircismusSour	ERR2538364
+ERR2538365	NA	NA	EXP-23-BO2613	MBS362	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM2	7	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	35	High	Sour	ERR2538365
+ERR2538366	NA	NA	EXP-23-BO2613	MBS363	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM3	7	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	30	High	Sour	ERR2538366
+ERR2538367	NA	NA	EXP-23-BO2613	MBS364	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM4	9	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	70	High	HircismusRancidSour	ERR2538367
+ERR2538368	NA	NA	EXP-23-BO2613	MBS365	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM5	7	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	40	High	Sour	ERR2538368
+ERR2538369	NA	NA	EXP-23-BO2613	MBS366	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM6	6	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	30	High	SourRancid	ERR2538369
+ERR2538370	NA	NA	EXP-23-BO2613	MBS367	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM7	8	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	25	High	SourRancid	ERR2538370
+ERR2538371	NA	NA	EXP-23-BO2613	MBS368	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM8	9	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	40	High	HircismusAcidicSourOily	ERR2538371
+ERR2538372	NA	NA	EXP-23-BO2613	MBS369	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM9	9	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	50	High	RancidSour	ERR2538372
+ERR2538373	NA	NA	EXP-23-BO2613	MBS370	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM10	8	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	30	High	SouRancidic	ERR2538373
+ERR2538374	NA	NA	EXP-23-BO2613	MBS371	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD1	6	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	25	Low	Sour	ERR2538374
+ERR2538375	NA	NA	EXP-23-BO2613	MBS372	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD2	6	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	30	Low	SourOily	ERR2538375
+ERR2538376	NA	NA	EXP-23-BO2613	MBS373	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD3	9	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	25	Low	Sour	ERR2538376
+ERR2538377	NA	NA	EXP-23-BO2613	MBS374	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD4	8	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	50	Low	HircismusAcidic	ERR2538377
+ERR2538378	NA	NA	EXP-23-BO2613	MBS375	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD5	8	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	25	Low	SouRancidic	ERR2538378
+ERR2538379	NA	NA	EXP-23-BO2613	MBS376	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM1	16	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	75	High	Hircismus	ERR2538379
+ERR2538380	NA	NA	EXP-23-BO2613	MBS377	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM2	15	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	60	High	Acidic	ERR2538380
+ERR2538381	NA	NA	EXP-23-BO2613	MBS378	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM3	18	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	55	High	HircismusAcidic	ERR2538381
+ERR2538382	NA	NA	EXP-23-BO2613	MBS379	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM4	18	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	70	High	HircismusAcidic	ERR2538382
+ERR2538383	NA	NA	EXP-23-BO2613	MBS380	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM5	15	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	50	High	GreasyMuskySweetAcidic	ERR2538383
+ERR2538384	NA	NA	EXP-23-BO2613	MBS381	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM6	15	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	55	High	HircismusAcidic	ERR2538384
+ERR2538385	NA	NA	EXP-23-BO2613	MBS382	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM7	18	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	35	High	HircismusSoursweat	ERR2538385
+ERR2538386	NA	NA	EXP-23-BO2613	MBS383	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM8	15	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	65	High	Hircismus	ERR2538386
+ERR2538387	NA	NA	EXP-23-BO2613	MBS384	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM9	18	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	40	High	HircismusSour	ERR2538387
+ERR2538388	NA	NA	EXP-23-BO2613	MBS385	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM10	16	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	40	High	Acidic	ERR2538388
+ERR2538389	NA	NA	EXP-23-BO2613	MBS386	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD1	15	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	55	Low	HircismusAcidicOily	ERR2538389
+ERR2538390	NA	NA	EXP-23-BO2613	MBS387	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD2	18	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	60	Low	HircismusAcidic	ERR2538390
+ERR2538391	NA	NA	EXP-23-BO2613	MBS388	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD3	17	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	40	Low	MuskyHircismusAcidic	ERR2538391
+ERR2538392	NA	NA	EXP-23-BO2613	MBS389	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD4	15	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	30	Low	Fragrant	ERR2538392
+ERR2538393	NA	NA	EXP-23-BO2613	MBS390	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD5	17	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	40	Low	HircismusSour	ERR2538393
+ERR2538394	NA	NA	EXP-23-BO2613	MBS391	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM1	16	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	75	High	HircismusSulfur	ERR2538394
+ERR2538395	NA	NA	EXP-23-BO2613	MBS392	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM2	15	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	80	High	HircismusSulfur	ERR2538395
+ERR2538396	NA	NA	EXP-23-BO2613	MBS393	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM3	18	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	60	High	HircismusSulfur	ERR2538396
+ERR2538397	NA	NA	EXP-23-BO2613	MBS394	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM4	18	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	75	High	HircismusSulfur	ERR2538397
+ERR2538398	NA	NA	EXP-23-BO2613	MBS395	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM5	15	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	40	High	SourOilyRancid	ERR2538398
+ERR2538399	NA	NA	EXP-23-BO2613	MBS396	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM6	15	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	65	High	HircismusSulfur	ERR2538399
+ERR2538400	NA	NA	EXP-23-BO2613	MBS397	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM7	18	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	55	High	HircismusAcidic	ERR2538400
+ERR2538401	NA	NA	EXP-23-BO2613	MBS398	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM8	15	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	75	High	HircismusSulfurRancid	ERR2538401
+ERR2538402	NA	NA	EXP-23-BO2613	MBS399	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM9	18	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	40	High	SourRancid	ERR2538402
+ERR2538403	NA	NA	EXP-23-BO2613	MBS400	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM10	16	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	50	High	SouRancidic	ERR2538403
+ERR2538404	NA	NA	EXP-23-BO2613	MBS401	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD1	15	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	60	Low	HircismusRancid	ERR2538404
+ERR2538405	NA	NA	EXP-23-BO2613	MBS402	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD2	18	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	60	Low	HircismusAcidic	ERR2538405
+ERR2538406	NA	NA	EXP-23-BO2613	MBS403	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD3	17	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	45	Low	SourOily	ERR2538406
+ERR2538407	NA	NA	EXP-23-BO2613	MBS404	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD4	15	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	40	Low	HircismusSour	ERR2538407
+ERR2538408	NA	NA	EXP-23-BO2613	MBS405	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD5	17	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Axilla	Axilla	NA	NA	Healthy	55	Low	HircismusSour	ERR2538408
+ERR2538469	NA	NA	EXP-23-BO2613	MBS406	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM1	6	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	High	Sweet	ERR2538469
+ERR2538470	NA	NA	EXP-23-BO2613	MBS407	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM1	6	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	30	High	SourRancid	ERR2538470
+ERR2538471	NA	NA	EXP-23-BO2613	MBS408	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM1	16	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	25	High	Sweet	ERR2538471
+ERR2538472	NA	NA	EXP-23-BO2613	MBS409	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM1	16	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	35	High	SourRancid	ERR2538472
+ERR2538473	NA	NA	EXP-23-BO2613	MBS410	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM2	7	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	25	High	SweetSour	ERR2538473
+ERR2538474	NA	NA	EXP-23-BO2613	MBS411	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM2	7	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	40	High	SourSulfur	ERR2538474
+ERR2538475	NA	NA	EXP-23-BO2613	MBS412	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM2	15	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	High	Sweet	ERR2538475
+ERR2538476	NA	NA	EXP-23-BO2613	MBS413	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM2	15	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	45	High	HircismusRancid	ERR2538476
+ERR2538477	NA	NA	EXP-23-BO2613	MBS414	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD1	6	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	15	Low	Sweet	ERR2538477
+ERR2538478	NA	NA	EXP-23-BO2613	MBS415	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD1	6	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	15	Low	Sour	ERR2538478
+ERR2538479	NA	NA	EXP-23-BO2613	MBS416	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD1	15	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	Low	SweetMuskyAcidic	ERR2538479
+ERR2538480	NA	NA	EXP-23-BO2613	MBS417	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD1	15	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	30	Low	SourRancid	ERR2538480
+ERR2538481	NA	NA	EXP-23-BO2613	MBS418	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM3	7	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	15	High	Sweet	ERR2538481
+ERR2538482	NA	NA	EXP-23-BO2613	MBS419	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM3	7	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	15	High	SweetSour	ERR2538482
+ERR2538483	NA	NA	EXP-23-BO2613	MBS420	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM3	18	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	25	High	MustyGreenGreasy	ERR2538483
+ERR2538484	NA	NA	EXP-23-BO2613	MBS421	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM3	18	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	35	High	HircismusRancid	ERR2538484
+ERR2538485	NA	NA	EXP-23-BO2613	MBS422	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM4	9	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	30	High	SweetSour	ERR2538485
+ERR2538486	NA	NA	EXP-23-BO2613	MBS423	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM4	9	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	25	High	Sour	ERR2538486
+ERR2538487	NA	NA	EXP-23-BO2613	MBS424	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM4	18	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	High	Musky	ERR2538487
+ERR2538488	NA	NA	EXP-23-BO2613	MBS425	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM4	18	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	35	High	HircismusRancidSour	ERR2538488
+ERR2538489	NA	NA	EXP-23-BO2613	MBS426	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD2	6	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	15	Low	SweetSour	ERR2538489
+ERR2538490	NA	NA	EXP-23-BO2613	MBS427	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD2	6	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	Low	Sour	ERR2538490
+ERR2538491	NA	NA	EXP-23-BO2613	MBS428	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD2	18	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	15	Low	Greasy	ERR2538491
+ERR2538492	NA	NA	EXP-23-BO2613	MBS429	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD2	18	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	25	Low	SourRancid	ERR2538492
+ERR2538493	NA	NA	EXP-23-BO2613	MBS430	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM5	7	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	High	SweetSour	ERR2538493
+ERR2538494	NA	NA	EXP-23-BO2613	MBS431	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM5	7	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	15	High	Sour	ERR2538494
+ERR2538495	NA	NA	EXP-23-BO2613	MBS432	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM5	15	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	High	MustyGreen	ERR2538495
+ERR2538496	NA	NA	EXP-23-BO2613	MBS433	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM5	15	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	15	High	Sour	ERR2538496
+ERR2538497	NA	NA	EXP-23-BO2613	MBS434	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM6	6	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	High	SweetSour	ERR2538497
+ERR2538498	NA	NA	EXP-23-BO2613	MBS435	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM6	6	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	25	High	Sour	ERR2538498
+ERR2538499	NA	NA	EXP-23-BO2613	MBS436	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM6	15	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	High	MustyGreen	ERR2538499
+ERR2538500	NA	NA	EXP-23-BO2613	MBS437	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM6	15	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	30	High	SourRancid	ERR2538500
+ERR2538501	NA	NA	EXP-23-BO2613	MBS438	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD3	9	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	Low	SweetSour	ERR2538501
+ERR2538502	NA	NA	EXP-23-BO2613	MBS439	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD3	9	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	15	Low	SweetSour	ERR2538502
+ERR2538503	NA	NA	EXP-23-BO2613	MBS440	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD3	17	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	25	Low	SweetSour	ERR2538503
+ERR2538504	NA	NA	EXP-23-BO2613	MBS441	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD3	17	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	15	Low	Sour	ERR2538504
+ERR2538505	NA	NA	EXP-23-BO2613	MBS442	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM7	8	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	15	High	SweetSour	ERR2538505
+ERR2538506	NA	NA	EXP-23-BO2613	MBS443	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM7	8	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	15	High	RancidSour	ERR2538506
+ERR2538507	NA	NA	EXP-23-BO2613	MBS444	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM7	18	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	High	Sweet	ERR2538507
+ERR2538508	NA	NA	EXP-23-BO2613	MBS445	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM7	18	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	25	High	AcidicRancid	ERR2538508
+ERR2538509	NA	NA	EXP-23-BO2613	MBS446	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM8	9	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	25	High	SourOily	ERR2538509
+ERR2538510	NA	NA	EXP-23-BO2613	MBS447	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM8	9	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	30	High	SweetSour	ERR2538510
+ERR2538511	NA	NA	EXP-23-BO2613	MBS448	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM8	15	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	High	MustySour	ERR2538511
+ERR2538512	NA	NA	EXP-23-BO2613	MBS449	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM8	15	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	30	High	SourRancid	ERR2538512
+ERR2538513	NA	NA	EXP-23-BO2613	MBS450	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD4	8	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	25	Low	Sweet	ERR2538513
+ERR2538514	NA	NA	EXP-23-BO2613	MBS451	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD4	8	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	35	Low	SourSweet	ERR2538514
+ERR2538515	NA	NA	EXP-23-BO2613	MBS452	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD4	15	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	Low	FragrantAcidic	ERR2538515
+ERR2538516	NA	NA	EXP-23-BO2613	MBS453	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD4	15	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	Low	SourSweet	ERR2538516
+ERR2538517	NA	NA	EXP-23-BO2613	MBS454	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM9	9	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	25	High	SourFragrant	ERR2538517
+ERR2538518	NA	NA	EXP-23-BO2613	MBS455	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM9	9	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	35	High	RancidSour	ERR2538518
+ERR2538519	NA	NA	EXP-23-BO2613	MBS456	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM9	18	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	25	High	Fragrant	ERR2538519
+ERR2538520	NA	NA	EXP-23-BO2613	MBS457	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM10	8	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	10	High	Sour	ERR2538520
+ERR2538521	NA	NA	EXP-23-BO2613	MBS458	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM10	8	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	15	High	Sour	ERR2538521
+ERR2538522	NA	NA	EXP-23-BO2613	MBS459	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM10	16	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	25	High	Acidic	ERR2538522
+ERR2538523	NA	NA	EXP-23-BO2613	MBS460	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM10	16	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	High	SouRancidic	ERR2538523
+ERR2538524	NA	NA	EXP-23-BO2613	MBS461	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD5	8	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	Low	SourGreasy	ERR2538524
+ERR2538525	NA	NA	EXP-23-BO2613	MBS462	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD5	8	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	Low	SourSweet	ERR2538525
+ERR2538526	NA	NA	EXP-23-BO2613	MBS463	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD5	17	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	20	Low	SourFragrant	ERR2538526
+ERR2538527	NA	NA	EXP-23-BO2613	MBS464	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD5	17	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Neck	Neck	NA	NA	Healthy	25	Low	Fragrant	ERR2538527
+ERR2538409	NA	NA	EXP-23-BO2613	MBS466	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM1	6	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	20	High	GreasySour	ERR2538409
+ERR2538410	NA	NA	EXP-23-BO2613	MBS467	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM1	6	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	35	High	OilySourNutty	ERR2538410
+ERR2538411	NA	NA	EXP-23-BO2613	MBS468	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM1	16	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	35	High	OilySourSweet	ERR2538411
+ERR2538412	NA	NA	EXP-23-BO2613	MBS469	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM1	16	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	25	High	OilyGreasySour	ERR2538412
+ERR2538413	NA	NA	EXP-23-BO2613	MBS470	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM2	7	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	25	High	GreasySour	ERR2538413
+ERR2538414	NA	NA	EXP-23-BO2613	MBS471	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM2	7	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	OilyslightlySour	ERR2538414
+ERR2538415	NA	NA	EXP-23-BO2613	MBS472	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM2	15	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	25	High	Oily	ERR2538415
+ERR2538416	NA	NA	EXP-23-BO2613	MBS473	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM2	15	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	OilySour	ERR2538416
+ERR2538417	NA	NA	EXP-23-BO2613	MBS474	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD1	6	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	20	Low	Greasy	ERR2538417
+ERR2538418	NA	NA	EXP-23-BO2613	MBS475	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD1	6	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	Low	OilySour	ERR2538418
+ERR2538419	NA	NA	EXP-23-BO2613	MBS476	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD1	15	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	Low	Oily	ERR2538419
+ERR2538420	NA	NA	EXP-23-BO2613	MBS477	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD1	15	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	Low	OilySour	ERR2538420
+ERR2538421	NA	NA	EXP-23-BO2613	MBS478	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM3	7	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	15	High	SweetOily	ERR2538421
+ERR2538422	NA	NA	EXP-23-BO2613	MBS479	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM3	7	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	SourOily	ERR2538422
+ERR2538423	NA	NA	EXP-23-BO2613	MBS480	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM3	18	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	GreasyWaxySweet	ERR2538423
+ERR2538424	NA	NA	EXP-23-BO2613	MBS481	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM3	18	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	OilySour	ERR2538424
+ERR2538425	NA	NA	EXP-23-BO2613	MBS482	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM4	9	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	35	High	GreasySour	ERR2538425
+ERR2538426	NA	NA	EXP-23-BO2613	MBS483	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM4	9	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	25	High	SourOily	ERR2538426
+ERR2538427	NA	NA	EXP-23-BO2613	MBS484	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM4	18	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	40	High	GreasyWaxySweet	ERR2538427
+ERR2538428	NA	NA	EXP-23-BO2613	MBS485	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM4	18	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	OilySour	ERR2538428
+ERR2538429	NA	NA	EXP-23-BO2613	MBS486	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD2	6	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	15	Low	GreasySweet	ERR2538429
+ERR2538430	NA	NA	EXP-23-BO2613	MBS487	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD2	6	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	25	Low	OilySour	ERR2538430
+ERR2538431	NA	NA	EXP-23-BO2613	MBS488	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD2	18	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	35	Low	GreasyWaxy	ERR2538431
+ERR2538432	NA	NA	EXP-23-BO2613	MBS489	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD2	18	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	40	Low	RancidSourOily	ERR2538432
+ERR2538433	NA	NA	EXP-23-BO2613	MBS490	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM5	7	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	20	High	GreasySweet	ERR2538433
+ERR2538434	NA	NA	EXP-23-BO2613	MBS491	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM5	7	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	35	High	OilySour	ERR2538434
+ERR2538435	NA	NA	EXP-23-BO2613	MBS492	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM5	15	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	GreasyFlora	ERR2538435
+ERR2538436	NA	NA	EXP-23-BO2613	MBS493	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM5	15	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	OilySour	ERR2538436
+ERR2538437	NA	NA	EXP-23-BO2613	MBS494	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM6	6	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	GreasyOily	ERR2538437
+ERR2538438	NA	NA	EXP-23-BO2613	MBS495	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM6	6	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	OilySour	ERR2538438
+ERR2538439	NA	NA	EXP-23-BO2613	MBS496	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM6	15	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	GreasyWaxyNutty	ERR2538439
+ERR2538440	NA	NA	EXP-23-BO2613	MBS497	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM6	15	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	35	High	OilySour	ERR2538440
+ERR2538441	NA	NA	EXP-23-BO2613	MBS498	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD3	9	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	Low	GreasySour	ERR2538441
+ERR2538442	NA	NA	EXP-23-BO2613	MBS499	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD3	9	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	Low	OilySour	ERR2538442
+ERR2538443	NA	NA	EXP-23-BO2613	MBS500	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD3	17	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	Low	Greasy	ERR2538443
+ERR2538444	NA	NA	EXP-23-BO2613	MBS501	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD3	17	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	35	Low	SourOily	ERR2538444
+ERR2538445	NA	NA	EXP-23-BO2613	MBS502	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM7	8	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	GreasyOily	ERR2538445
+ERR2538446	NA	NA	EXP-23-BO2613	MBS503	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM7	8	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	25	High	OilySour	ERR2538446
+ERR2538447	NA	NA	EXP-23-BO2613	MBS504	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM7	18	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	GreasyNutty	ERR2538447
+ERR2538448	NA	NA	EXP-23-BO2613	MBS505	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM7	18	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	Oily	ERR2538448
+ERR2538449	NA	NA	EXP-23-BO2613	MBS506	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM8	9	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	25	High	Sour	ERR2538449
+ERR2538450	NA	NA	EXP-23-BO2613	MBS507	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM8	9	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	35	High	OilySour	ERR2538450
+ERR2538451	NA	NA	EXP-23-BO2613	MBS508	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM8	15	Teenager	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	GreasyOily	ERR2538451
+ERR2538452	NA	NA	EXP-23-BO2613	MBS509	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM8	15	Teenager	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	OilySour	ERR2538452
+ERR2538453	NA	NA	EXP-23-BO2613	MBS510	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD4	8	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	20	Low	Greasy	ERR2538453
+ERR2538454	NA	NA	EXP-23-BO2613	MBS511	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD4	8	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	Low	OilySour	ERR2538454
+ERR2538455	NA	NA	EXP-23-BO2613	MBS512	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD4	15	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	20	Low	SweetGreasySour	ERR2538455
+ERR2538456	NA	NA	EXP-23-BO2613	MBS513	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD4	15	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	Low	OilySour	ERR2538456
+ERR2538457	NA	NA	EXP-23-BO2613	MBS514	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM9	9	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	35	High	SourGreasy	ERR2538457
+ERR2538458	NA	NA	EXP-23-BO2613	MBS515	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM9	9	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	45	High	RancidSourOily	ERR2538458
+ERR2538459	NA	NA	EXP-23-BO2613	MBS516	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM9	18	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	Greasy	ERR2538459
+ERR2538460	NA	NA	EXP-23-BO2613	MBS517	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM9	18	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	35	High	OilySour	ERR2538460
+ERR2538461	NA	NA	EXP-23-BO2613	MBS518	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM10	8	Child	Male	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	35	High	FragrantWaxy	ERR2538461
+ERR2538462	NA	NA	EXP-23-BO2613	MBS519	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KM10	8	Child	Male	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	Fragrant	ERR2538462
+ERR2538463	NA	NA	EXP-23-BO2613	MBS520	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM10	16	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	Greasy	ERR2538463
+ERR2538464	NA	NA	EXP-23-BO2613	MBS521	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TM10	16	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	High	OilySour	ERR2538464
+ERR2538465	NA	NA	EXP-23-BO2613	MBS522	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD5	8	Child	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	25	Low	SourGreasy	ERR2538465
+ERR2538466	NA	NA	EXP-23-BO2613	MBS523	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	KD5	8	Child	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	25	Low	OilySour	ERR2538466
+ERR2538467	NA	NA	EXP-23-BO2613	MBS524	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD5	17	Teenager	Female	1	Baseline	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	20	Low	FragrantSourOily	ERR2538467
+ERR2538468	NA	NA	EXP-23-BO2613	MBS525	NA	"Understanding_the_microbial_basis_of_body
+odor_in_pre-pubescent_children_and
+teenagers"	https://doi.org/10.1186/s40168-018-0588-z	No	NA	NA	Philippines	NA	TD5	17	Teenager	Female	8	PostExercise	Metagenomics	TapeStrip	Illumina	Head	Head	NA	NA	Healthy	30	Low	FragrantOilyNutty	ERR2538468
