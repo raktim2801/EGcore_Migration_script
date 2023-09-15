@@ -6589,7 +6589,7 @@
                     "display_name": "ScalpCondition",
                     "parent_entity": "Sample",
                     "datatype": "String",
-                    "valid_values": "Dandruff, Healthy",
+                    "valid_values": "Dandruff, Healthy, MildDandruff",
                     "recommended_values": NaN,
                     "is_mandatory": "Optional",
                     "condition_of_mandatory": NaN,
