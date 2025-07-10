@@ -26,7 +26,7 @@ def CREATE_VALIDATION_DICTS():
     return: ddsyn2, ddSIM, ddEntity, ddDType
     """
     try:
-        fp="./input_blank/eaglegenomics-cv.json"
+        fp="/Users/raktimmaiti_mbp/Documents/GitHub/EagleGenomics-CV/master/eaglegenomics-cv.json"
         with open(fp) as f:
             cv=json.load(f)
         logging.info('Input mapping file successfully loaded')

@@ -21,7 +21,7 @@ st.set_page_config(page_title="Egcore study Validation and Convertion", page_ico
 
 
 def CREATE_VALIDATION_DICTS():
-    """# ## Load Dictionaries input file
+    """### Load Dictionaries input file
 
     return: ddsyn2, ddSIM, ddEntity, ddDType
     """
@@ -34,54 +34,37 @@ def CREATE_VALIDATION_DICTS():
         logging.error("""CV file not loaded""")
         raise ImportError('CV file not loaded')
 
-    """Create Dicts from input file"""
-    """# ### Load Synonym dict """
-    st.write(f"## Validation Based on CV version `{cv['version']}`.")
+    #Create Dicts from input file
+    #Load Synonym dict
     ddsyn2={}
     for x in cv['classes'][1]['terms'].keys():
-        try:
-            temp=cv['classes'][1]['terms'][x]["alternative_terms"].strip().split(",")
-            #print(temp)
-            temp.append(cv['classes'][1]['terms'][x]["cv_name"])
-            temp.append(cv['classes'][1]['terms'][x]["display_name"])
-            #print(temp)
-        except:
-            temp=[]
-            temp.append(cv['classes'][1]['terms'][x]["cv_name"])
-            temp.append(cv['classes'][1]['terms'][x]["display_name"])
-        
-        try:
-            temp2=cv['classes'][1]['terms'][x]["synonyms"].strip().split(",")
-        except:
-            temp2=[]
-            
-        temp.extend(temp2)
-        
+        temp=cv['classes'][1]['terms'][x]["synonyms"].strip().split(",")
         temp=[y.strip() for y in temp if len(y) > 0]
         temp=[y.strip() for y in temp if len(y) > 0]
         for zz in temp:
-            ddsyn2[zz] = cv['classes'][1]['terms'][x]["cv_name"]
+            #ddsyn2[zz] = cv['classes'][1]['terms'][x]["default_display"]
+            ddsyn2[zz] = x
 
-    """# ### Load Entity and SIM mapping"""
-    ddEntity={cv['classes'][1]['terms'][x]["cv_name"]:cv['classes'][1]['terms'][x]['parent_entity'] for x in cv['classes'][1]['terms'].keys()}
-    ddSIM={cv['classes'][1]['terms'][x]["cv_name"]:cv['classes'][1]['terms'][x]['display_name'] for x in cv['classes'][1]['terms'].keys()}
-    ddDType={cv['classes'][1]['terms'][x]["cv_name"]:cv['classes'][1]['terms'][x]['datatype'] for x in cv['classes'][1]['terms'].keys()}
+    #### Load Entity and SIM mapping
+    ddEntity={x:cv['classes'][1]['terms'][x]['entity'] for x in cv['classes'][1]['terms'].keys()}
+    ddSIM={x:cv['classes'][1]['terms'][x]['default_display'] for x in cv['classes'][1]['terms'].keys()}
+    ddDType={x:cv['classes'][1]['terms'][x]['datatype'] for x in cv['classes'][1]['terms'].keys()}
     
-    """# ### Load valid values mapping"""
+    #### Load valid values mapping
     ddNumRange={}
     ddCatRange={}
     for x in cv['classes'][1]['terms'].keys():
         y=cv['classes'][1]['terms'][x]['valid_values']
         z=cv['classes'][1]['terms'][x]['datatype']
         if not pd.isna(y):
-            #print(x,cv['classes'][1]['terms'][x]['valid_values'])
+            #st.write(x,cv['classes'][1]['terms'][x]['valid_values'])
             if z == 'Numeric':
                 ddNumRange[x]=y
             else:
                 ddCatRange[x]=y
                 
-    ddNumRange={cv['classes'][1]['terms'][x]["cv_name"]:eval(ddNumRange[x]) for x in ddNumRange}
-    ddCatRange={cv['classes'][1]['terms'][x]["cv_name"]:[_.strip() for _ in ddCatRange[x].split(',')] for x in ddCatRange}
+    ddNumRange={x:eval(ddNumRange[x]) for x in ddNumRange}
+    ddCatRange={x:[_.strip() for _ in ddCatRange[x].split(',')] for x in ddCatRange}
         
     return ddsyn2, ddSIM, ddEntity, ddDType, ddNumRange, ddCatRange
 
@@ -219,53 +202,41 @@ def checkValidValues(dseries, ddDType, ddNumRange, ddCatRange):
     
     return outOfRngCol
 
-def checkValidNumValues(dseries, ddNumRange, ddSIM):
+def checkValidNumValues(dseries, ddNumRange):
     s=dseries.name
     outOfRngCol=[]
     
-    #fp="/Users/raktimmaiti_mbp/Documents/GitHub/EagleGenomics-CV/master/eaglegenomics-cv.json"
-    #with open(fp) as f:
-        #cv=json.load(f)
-    
     if s in ddNumRange:
         Ndata=dseries.copy()
-        #cvname=cv['classes'][1]['terms'][f'{Ndata.name}_Study']["display_name"]
-        cvname=ddSIM[Ndata.name]
         if Ndata.dropna().between(ddNumRange[s][0],ddNumRange[s][1]).all():
             pass
         else:
             #st.write(f"{s} have out of range numerical values")
-            logging.error(f"Atribute {cvname}: contains Out of Range Numerical Values")
-            st.write(cvname, "Valid Range: ", ddNumRange[s])
-            st.write(cvname, "Actual data-> min: ", Ndata.min(),", max: ", Ndata.max())
-            outOfRngCol.append(cvname)
+            logging.error(f"Atribute {Ndata.name}: contains Out of Range Numerical Values")
+            st.write(Ndata.name, "Valid Range: ", ddNumRange[s])
+            st.write(Ndata.name, "Actual data-> min: ", Ndata.min(),", max: ", Ndata.max())
+            outOfRngCol.append(Ndata.name)
     else:
         pass
     
     return outOfRngCol
 
 
-def checkValidCatValues(dseries, ddCatRange, ddSIM):
+def checkValidCatValues(dseries, ddCatRange):
     s=dseries.name
     outOfRngCol=[]
     
-    #fp="/Users/raktimmaiti_mbp/Documents/GitHub/EagleGenomics-CV/master/eaglegenomics-cv.json"
-    #with open(fp) as f:
-        #cv=json.load(f)
-    
     if s in ddCatRange:
         Cdata=dseries.copy()
-        #cvname=cv['classes'][1]['terms'][f'{Cdata.name}_Study']["display_name"]
-        cvname=ddSIM[Cdata.name]
         if Cdata.dropna().isin(ddCatRange[s]).all():
             pass
         else:
             #st.write(f"{s} have out of range categorical values")
-            logging.error(f"Atribute {cvname}: contains Out of Range Categorical Values")
-            st.write(cvname, "Valid Values: ", ddCatRange[s])
+            logging.error(f"Atribute {Cdata.name}: contains Out of Range Categorical Values")
+            st.write(Cdata.name, "Valid Values: ", ddCatRange[s])
             #st.write(Cdata.name, "Actual Values: ", Cdata.unique())
-            st.write(cvname, "Unknown Values: ", set(Cdata.unique())-set(ddCatRange[s]))
-            outOfRngCol.append(cvname)
+            st.write(Cdata.name, "Unknown Values: ", set(Cdata.unique())-set(ddCatRange[s]))
+            outOfRngCol.append(Cdata.name)
     else:
         pass
     
@@ -303,10 +274,9 @@ def main():
     st.header("Eagle Core Study Validation and convertion!")
     
     loglevel=10 ## DEBUG level
-    SID = st.text_input('EagleCore Study ID:', key="SID")
-    errors = st.radio('Errors handled as:', ['raise', 'coerce', 'ignore'], horizontal=True, key="errors")
-    #delim = st.text_input(label='The delimiter to be used:', value=",")
-    delim = st.selectbox(label='The delimiter to be used:', options=[",", ";", "\t"], key="delim", help=None)
+    SID = st.text_input('EagleCore Study ID:')
+    errors = st.radio('Errors handled as:', ['raise', 'coerce', 'ignore'], horizontal=True)
+    delim = st.text_input(label='The delimiter to be used:', value=",")
     
     submitted=0
     
@@ -364,17 +334,14 @@ def main():
     
     
     
-    validate = st.checkbox('Validate and Curate')
+    validate = st.button('Validate and Curate')
     if validate:
         
         dataValidation=[]
 
         ddsyn2, ddSIM, ddEntity, ddDType, ddNumRange, ddCatRange = CREATE_VALIDATION_DICTS()
         mappingFile = LOAD_MAPPING_FILE(SID, ddsyn2, delim=delim)
-        try:
-            mappingFile = mappingFile.drop(['specimenDescription'], axis=1)
-        except:
-            ''
+        mappingFile = mappingFile.drop(['specimenDescription'], axis=1)
     
     
     
@@ -397,7 +364,6 @@ def main():
         StudyDict["Experiment Type"]=SEInput.loc[SID]['experimentType']
         StudyDict["Platform"]=SEInput.loc[SID]['platform']
         StudyDict["InvestigationType"]=SEInput.loc[SID]['investigationType']
-        StudyDict["PairedOrSingle"]=SEInput.loc[SID]['Indexed Sequencing']
         StudyDict["Processing Status"]=SEInput.loc[SID]['processingStatus']
         StudyDict["Raw Data Available"]=SEInput.loc[SID]['rawDataAvailable']
         
@@ -433,9 +399,9 @@ def main():
             dataValidation.append(True)
             
             
-        #fp="/Users/raktimmaiti_mbp/Documents/GitHub/EagleGenomics-CV/master/eaglegenomics-cv.json"
-        #with open(fp) as f:
-        #    cv=json.load(f)
+        fp="/Users/raktimmaiti_mbp/Documents/GitHub/EagleGenomics-CV/master/eaglegenomics-cv.json"
+        with open(fp) as f:
+            cv=json.load(f)
             
         
         
@@ -450,7 +416,7 @@ def main():
             try:
                 x= convertDtype(x, ddDType, errors=errors)
             except ValueError:
-                InvalidDataTypeCols.append(ddSIM[x.name])
+                InvalidDataTypeCols.append(x.name)
                 continue
             
             #valChk=checkValidValues(x, ddDType, ddNumRange, ddCatRange)
@@ -466,20 +432,16 @@ def main():
                 dataType= 'String'
                 
             if dataType == "Numeric" or dataType == "INT":
-                valChk=checkValidNumValues(x, ddNumRange, ddSIM)
+                valChk=checkValidNumValues(x, ddNumRange)
             elif dataType == "String":
-                valChk=checkValidCatValues(x, ddCatRange, ddSIM)
+                valChk=checkValidCatValues(x, ddCatRange)
             
             OutOfRngCols.extend(valChk)
             
             
             prefix=[]
             data = [*prefix, *x]
-            try:
-                dname=ddSIM[columns]
-            except:
-                dname=columns
-            data = pd.Series(data, name=dname)
+            data = pd.Series(data, name=cv['classes'][1]['terms'][columns]["default_display"])
         
             #st.write(data)
             
@@ -582,12 +544,12 @@ def main():
         except:
             ''
         
-        #try:
-        #    with open(f'./egcoreInputs/egcore{SID}/log/{SID}.log', 'r') as f2:
-        #        logf=f2.read()
-        #        st.code(logf, language="log", line_numbers=False)
-        #except:
-        #    ''
+        try:
+            with open(f'./egcoreInputs/egcore{SID}/log/{SID}.log', 'r') as f2:
+                logf=f2.read(f2)
+                st.code(logf, language="log", line_numbers=False)
+        except:
+            ''
     
 if __name__ == '__main__':
     main()
